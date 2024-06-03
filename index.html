@@ -1,4 +1,11 @@
-<html lang="en"><head><title>Start Publishing!</title><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=0"><script defer="defer" src="/static/js/main.d0325027.js"></script><style type="text/css">:root, :host {
+<html lang="en"><head><title>Start Publishing!</title><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=0"><script defer="defer" src="/static/js/main.d0325027.js">
+  document.addEventListener('touchmove', function(event) {
+    if (event.target.closest('.popup-content')) {
+        // Allow scrolling within the popup content
+        return;
+    }
+    event.preventDefault();
+</script><style type="text/css">:root, :host {
   --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Solid";
   --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Regular";
   --fa-font-light: normal 300 1em/1 "Font Awesome 6 Light";
